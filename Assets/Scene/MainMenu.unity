@@ -294,6 +294,65 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &196821535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 196821537}
+  - component: {fileID: 196821536}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &196821536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196821535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f689d039b12fa4620951cfedc69f2c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMixer: {fileID: 24100000, guid: d099aab657772455db502159d0284c47, type: 2}
+  musicTracks:
+  - name: BgMusic
+    clip: {fileID: 8300000, guid: c5f15c7549e7641ed983dceabe8019ae, type: 3}
+    mixerGroup: {fileID: 6869369320372862052, guid: d099aab657772455db502159d0284c47, type: 2}
+    volume: 0.2
+    loop: 1
+    source: {fileID: 0}
+  soundEffects:
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: 42f9dcb28aeaf43a6a8d1b0fedfa9618, type: 3}
+    mixerGroup: {fileID: -7330856318373657340, guid: d099aab657772455db502159d0284c47, type: 2}
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+--- !u!4 &196821537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196821535}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &245294355
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +366,7 @@ GameObject:
   - component: {fileID: 245294358}
   - component: {fileID: 245294357}
   - component: {fileID: 245294360}
+  - component: {fileID: 245294361}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -440,6 +500,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiltAngle: 15
+--- !u!114 &245294361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245294355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1eb8ff6d8c942b1befcf52daa3cbf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverSoundName: ButtonHover
+  clickSoundName: ButtonClick
 --- !u!1 &384848064
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +764,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeTextIndicator: {fileID: 869949247}
   volumeSlider: {fileID: 897932052}
+  parameterName: Music
+--- !u!1 &653290547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653290549}
+  - component: {fileID: 653290548}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &653290548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653290547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321f07a14681247a2a89323ae6d6d670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioManager: {fileID: 196821536}
+--- !u!4 &653290549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653290547}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &758013371
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +822,7 @@ GameObject:
   - component: {fileID: 758013375}
   - component: {fileID: 758013374}
   - component: {fileID: 758013373}
+  - component: {fileID: 758013376}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -822,6 +943,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758013371}
   m_CullTransparentMesh: 1
+--- !u!114 &758013376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758013371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1eb8ff6d8c942b1befcf52daa3cbf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverSoundName: ButtonHover
+  clickSoundName: ButtonClick
 --- !u!1 &835621733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,6 +1871,7 @@ GameObject:
   - component: {fileID: 1486453275}
   - component: {fileID: 1486453274}
   - component: {fileID: 1486453273}
+  - component: {fileID: 1486453276}
   m_Layer: 5
   m_Name: Play_Button
   m_TagString: Untagged
@@ -1857,6 +1993,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486453271}
   m_CullTransparentMesh: 1
+--- !u!114 &1486453276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486453271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1eb8ff6d8c942b1befcf52daa3cbf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverSoundName: ButtonHover
+  clickSoundName: ButtonClick
 --- !u!1 &1600018595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,3 +2365,5 @@ SceneRoots:
   - {fileID: 437203298}
   - {fileID: 1600018599}
   - {fileID: 1986858374}
+  - {fileID: 196821537}
+  - {fileID: 653290549}
