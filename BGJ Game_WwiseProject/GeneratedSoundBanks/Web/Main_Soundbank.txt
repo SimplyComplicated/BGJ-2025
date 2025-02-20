@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1068092414	Player_Hurt			\Default Work Unit\Player_Hurt	
 	1730208058	Player_Footsteps			\Default Work Unit\Player_Footsteps	
 	3361170585	Player_Stop			\Default Work Unit\Player_Stop	
+	4077002444	Player_Scanning			\Default Work Unit\Player_Scanning	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4847204	FP Shoes_Metal1	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\27\{27DF3994-8EAC-E617-F6DE-DEDF75CD462D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal1		103908
