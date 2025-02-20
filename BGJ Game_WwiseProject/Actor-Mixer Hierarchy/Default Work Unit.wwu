@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{15E6475C-F788-49EC-B301-6C26B06C1DED}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{15E6475C-F788-49EC-B301-6C26B06C1DED}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Player_Footsteps" ID="{7CF50BF2-F691-48F9-A16E-A27D74FBF4DE}" ShortID="677674650">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FP Shoes_Metal1" ID="{6175ABCE-77EA-4F72-9FB6-035C6031F2D0}" ShortID="820838338">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal1" ID="{0FA98803-A834-4680-A993-8E4DD9249170}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="4847204"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal1" ID="{0FA98803-A834-4680-A993-8E4DD9249170}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal2" ID="{CB3B008A-8D14-4948-A613-8A047C14A941}" ShortID="74487808">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal2" ID="{0740D6BD-790C-4BC0-B229-9D19C903B040}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="327235841"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal2" ID="{0740D6BD-790C-4BC0-B229-9D19C903B040}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal3" ID="{E1B7FD9D-8370-405D-87EC-40586DC3D2B8}" ShortID="706566477">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal3" ID="{CF3EA0D7-992F-4232-A7E6-93EAEF968FBD}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="158670929"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal3" ID="{CF3EA0D7-992F-4232-A7E6-93EAEF968FBD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal4" ID="{90A774F5-256F-491C-A05D-263116FC6642}" ShortID="771292014">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal4" ID="{E9B99FE5-498B-43AF-B6BC-98BFC28FE0A6}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="196140962"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal4" ID="{E9B99FE5-498B-43AF-B6BC-98BFC28FE0A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal5" ID="{B754A2A2-8684-40EF-B5FF-C49AD5BA6F25}" ShortID="20791410">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal5" ID="{2246F214-3C30-4E2B-B588-009B3021943F}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="659855838"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal5" ID="{2246F214-3C30-4E2B-B588-009B3021943F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal6" ID="{E4570A75-A6BB-4C19-B8EC-74B42F355A3F}" ShortID="573143347">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal6" ID="{B1B43598-75E6-4DCF-9F8C-3923241BD715}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="297088785"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal6" ID="{B1B43598-75E6-4DCF-9F8C-3923241BD715}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal7" ID="{571FE341-5E18-4EAA-BA39-4FF9EDC3B556}" ShortID="32954414">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal7" ID="{0D425BED-99CD-46CB-9C04-5C9B415579AD}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1057351311"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal7" ID="{0D425BED-99CD-46CB-9C04-5C9B415579AD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal8" ID="{8BA967F4-A6D1-47C2-8778-5FA8F98E2935}" ShortID="580338640">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal8" ID="{3E29990E-A00C-4BAC-8C08-F300985A28AF}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="876094771"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal8" ID="{3E29990E-A00C-4BAC-8C08-F300985A28AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal9" ID="{BBD0E23A-C41A-4BF7-8986-2F95BE9ACA2B}" ShortID="828385768">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal9" ID="{94B3D0FD-6C2E-47AC-A545-CE0AFC9B02EF}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="334376594"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal9" ID="{94B3D0FD-6C2E-47AC-A545-CE0AFC9B02EF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Metal10" ID="{94CBC76C-BB57-4E2C-8952-FAFDD0B48813}" ShortID="904482338">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Metal10" ID="{42334ACE-FA6E-4719-92D9-0D8E79902203}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Metal10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="828925393"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Metal10" ID="{42334ACE-FA6E-4719-92D9-0D8E79902203}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Player_Stop" ID="{E00BBB4B-0B04-4597-AEAF-FFDCAD171CAE}" ShortID="230830466">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FP Shoes_Stop1" ID="{40E258DB-3A98-448F-B2F2-900580A133E2}" ShortID="1052577660">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Stop1" ID="{43831D98-3110-4E05-A5D9-5BC306BFFFF2}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Stop1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="204720252"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Stop1" ID="{43831D98-3110-4E05-A5D9-5BC306BFFFF2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Stop2" ID="{AFAE9915-7F28-4D82-BA25-787ADA672BA6}" ShortID="459157305">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Stop2" ID="{F507C067-AD78-4F16-8273-018E390B72B5}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Stop2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="755002026"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Stop2" ID="{F507C067-AD78-4F16-8273-018E390B72B5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Stop3" ID="{3B3D747E-CA4F-4E9E-B249-CB93393A1C4E}" ShortID="584886394">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Stop3" ID="{0200CD21-CE09-4685-BAA2-16E462F5E51A}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Stop3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="841608972"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Stop3" ID="{0200CD21-CE09-4685-BAA2-16E462F5E51A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Stop4" ID="{8D3DA223-ACB6-48B3-BCCE-D488E9111CBF}" ShortID="72085993">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Stop4" ID="{D25F2077-C664-41A1-8C7E-FC358F050DF8}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Stop4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="711468468"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Stop4" ID="{D25F2077-C664-41A1-8C7E-FC358F050DF8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FP Shoes_Stop5" ID="{D041F485-8B99-4667-BA47-EB947E5906D6}" ShortID="336803539">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F6EB04A-12BB-4FC8-8FA2-DCA15751EEEE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2681F509-016A-4C38-BD78-070BCADD9BA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FP Shoes_Stop5" ID="{DD137266-A0E3-441B-830D-E95CFB0026F5}">
+									<Language>SFX</Language>
+									<AudioFile>FP Shoes_Stop5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="576027584"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FP Shoes_Stop5" ID="{DD137266-A0E3-441B-830D-E95CFB0026F5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
