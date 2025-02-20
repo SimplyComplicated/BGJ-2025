@@ -5,9 +5,15 @@
 			<ChildrenList>
 				<SoundBank Name="Main_Soundbank" ID="{F5CFA462-0E4E-4B76-89CC-296FB5BF06BE}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Robot_Turning" ID="{E22A38B6-3A8A-4190-8464-B6DE7C498376}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Robot_Shooting" ID="{5AD76D0F-315D-4385-AE52-2F7842971650}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Hurt" ID="{DC3C264D-F09E-447C-A242-C39682012505}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footsteps" ID="{5C79B5FC-0C8B-44B8-BE3C-8246AA3075F6}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Death" ID="{08301CBC-536D-48E7-8D72-1502836DADB2}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Robot_Detection" ID="{74E0490D-4C32-4B06-8955-06536FBD7900}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Stop" ID="{723633FE-3D77-4BC9-9C21-ACC3BEBD7B3C}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Robot_AggroGlitch" ID="{93EF8236-A34E-4D5F-8030-7DE59310878F}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Robot_Walking" ID="{7190D983-9333-4EA1-8458-C00E08CE91C7}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Scanning" ID="{1029C0C8-7839-4F6D-9462-C1788A972AA3}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

@@ -3,50 +3,124 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Player_Footsteps" ID="{5C79B5FC-0C8B-44B8-BE3C-8246AA3075F6}">
+				<Folder Name="Player Character" ID="{F3AEFC4E-8513-483F-B850-72EFE1ED39EE}" ShortID="1030935947">
 					<ChildrenList>
-						<Action Name="" ID="{6DD6AB47-E37F-42C5-977F-6CAC14E1259A}" ShortID="195235475">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_Footsteps" ID="{7CF50BF2-F691-48F9-A16E-A27D74FBF4DE}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Player_Death" ID="{08301CBC-536D-48E7-8D72-1502836DADB2}">
+							<ChildrenList>
+								<Action Name="" ID="{E9310A2A-EC0C-4D56-8DE9-E1F306189EC4}" ShortID="821702182">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Death" ID="{B7CACC33-520B-422D-B8A3-CB2F6E6B2103}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Footsteps" ID="{5C79B5FC-0C8B-44B8-BE3C-8246AA3075F6}">
+							<ChildrenList>
+								<Action Name="" ID="{6DD6AB47-E37F-42C5-977F-6CAC14E1259A}" ShortID="195235475">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Footsteps" ID="{7CF50BF2-F691-48F9-A16E-A27D74FBF4DE}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Hurt" ID="{DC3C264D-F09E-447C-A242-C39682012505}">
+							<ChildrenList>
+								<Action Name="" ID="{7B9D8A03-0104-46B9-9AF3-30A474A5D878}" ShortID="175089325">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Hurt" ID="{0E214EF9-C38B-41EE-BBA8-ED5D46669051}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Scanning" ID="{1029C0C8-7839-4F6D-9462-C1788A972AA3}">
+							<ChildrenList>
+								<Action Name="" ID="{A5F15798-3AAD-4FEF-ADD3-4AEA550FC7DC}" ShortID="171158054">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Scanning" ID="{5FF4CFB3-AF61-419F-9147-F289A83B7819}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Stop" ID="{723633FE-3D77-4BC9-9C21-ACC3BEBD7B3C}">
+							<ChildrenList>
+								<Action Name="" ID="{DDE06228-56B5-4473-90F8-208D0DE8FB12}" ShortID="652098988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Stop" ID="{E00BBB4B-0B04-4597-AEAF-FFDCAD171CAE}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Player_Stop" ID="{723633FE-3D77-4BC9-9C21-ACC3BEBD7B3C}">
+				</Folder>
+				<Folder Name="Enemy_Robot" ID="{99856AA8-BC50-4AEE-8279-BC1F44A0E4B7}" ShortID="941142884">
 					<ChildrenList>
-						<Action Name="" ID="{DDE06228-56B5-4473-90F8-208D0DE8FB12}" ShortID="652098988">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_Stop" ID="{E00BBB4B-0B04-4597-AEAF-FFDCAD171CAE}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Robot_Walking" ID="{7190D983-9333-4EA1-8458-C00E08CE91C7}">
+							<ChildrenList>
+								<Action Name="" ID="{FB8DF411-4F05-4A66-BD7E-952BA7365FCC}" ShortID="580050231">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Walking" ID="{6C6378FB-5F9F-42F5-8108-76748E6A67C4}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Robot_Turning" ID="{E22A38B6-3A8A-4190-8464-B6DE7C498376}">
+							<ChildrenList>
+								<Action Name="" ID="{F7184BEA-DBD4-4378-98A8-323BA3E50872}" ShortID="140389141">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Turning" ID="{BC1F5103-F247-4A1C-A157-8070C3294C19}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Robot_Detection" ID="{74E0490D-4C32-4B06-8955-06536FBD7900}">
+							<ChildrenList>
+								<Action Name="" ID="{65EC040C-E89B-4C7B-B31C-949B24F7026B}" ShortID="109742729">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Detection" ID="{8773AFF0-2E4B-4E5B-91D2-F6EF4B54A86F}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Robot_Shooting" ID="{5AD76D0F-315D-4385-AE52-2F7842971650}">
+							<ChildrenList>
+								<Action Name="" ID="{8FE7BEE6-169F-451C-BDD6-B616B8D4F18E}" ShortID="949478122">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Shooting" ID="{2A5E99F6-01D9-464A-AA65-F828A6BF389F}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Robot_AggroGlitch" ID="{93EF8236-A34E-4D5F-8030-7DE59310878F}">
+							<ChildrenList>
+								<Action Name="" ID="{555EED1E-B85B-4C84-8570-4AA5E156573F}" ShortID="449476669">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Aggro_Glitches" ID="{D67BB645-9371-4B70-AA34-12027B293173}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Player_Hurt" ID="{DC3C264D-F09E-447C-A242-C39682012505}">
-					<ChildrenList>
-						<Action Name="" ID="{7B9D8A03-0104-46B9-9AF3-30A474A5D878}" ShortID="175089325">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FP Shoes_Metal1" ID="{6175ABCE-77EA-4F72-9FB6-035C6031F2D0}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Player_Scanning" ID="{1029C0C8-7839-4F6D-9462-C1788A972AA3}">
-					<ChildrenList>
-						<Action Name="" ID="{A5F15798-3AAD-4FEF-ADD3-4AEA550FC7DC}" ShortID="171158054">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FP Shoes_Metal2" ID="{CB3B008A-8D14-4948-A613-8A047C14A941}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
