@@ -25,6 +25,8 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Hurt" ID="{DC3C264D-F09E-447C-A242-C39682012505}"/>
+				<Event Name="Player_Scanning" ID="{1029C0C8-7839-4F6D-9462-C1788A972AA3}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
