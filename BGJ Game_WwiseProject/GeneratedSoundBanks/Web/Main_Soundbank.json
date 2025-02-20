@@ -8,12 +8,12 @@
    {
     "Id": "2228651116",
     "Type": "User",
-    "GUID": "{518BF295-6279-4E19-9C31-0A846F9E3377}",
+    "GUID": "{F5CFA462-0E4E-4B76-89CC-296FB5BF06BE}",
     "Language": "SFX",
-    "Hash": "{750E761E-4616-2BF7-82DD-9069270ACFC9}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\main_Soundbank",
-    "ShortName": "main_Soundbank",
-    "Path": "main_Soundbank.bnk",
+    "Hash": "{8B29AAF1-DE87-DF27-09B1-87AE5DDAEF8A}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
+    "ShortName": "Main_Soundbank",
+    "Path": "Main_Soundbank.bnk",
     "Media": [
      {
       "Id": "4847204",
@@ -179,6 +179,26 @@
       ]
      },
      {
+      "Id": "1068092414",
+      "Name": "Player_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Hurt",
+      "GUID": "{DC3C264D-F09E-447C-A242-C39682012505}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4077002444",
+      "Name": "Player_Scanning",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Scanning",
+      "GUID": "{1029C0C8-7839-4F6D-9462-C1788A972AA3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3361170585",
       "Name": "Player_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Stop",
@@ -207,6 +227,6 @@
     ]
    }
   ],
-  "FileHash": "{DA258083-AC77-2A99-2B2B-486C7B5913C4}"
+  "FileHash": "{557D2466-D829-CD90-2E33-FBBEF7A3455B}"
  }
 }
