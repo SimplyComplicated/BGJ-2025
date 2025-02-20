@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F5CFA462-0E4E-4B76-89CC-296FB5BF06BE}",
     "Language": "SFX",
-    "Hash": "{674696B5-B2D7-EDBE-43CA-AE1256AD8A2F}",
+    "Hash": "{BA77084A-73DE-E076-B472-962CE778F729}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -22,6 +22,38 @@
       "Location": "Memory",
       "ShortName": "FP Shoes_Metal1.wav",
       "CachePath": "27/{27DF3994-8EAC-E617-F6DE-DEDF75CD462D}.wem"
+     },
+     {
+      "Id": "67998635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RF Robot_Step4.wav",
+      "CachePath": "7A/{7AAD019D-E858-9EC9-3637-E1165381DF1C}.wem"
+     },
+     {
+      "Id": "73368536",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RF Robot_Step3.wav",
+      "CachePath": "52/{528604AD-9930-9D76-B74C-F264AEF23AB2}.wem"
+     },
+     {
+      "Id": "109080345",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PH Player_Damage3.wav",
+      "CachePath": "FD/{FD426AE3-3636-54C8-3CF9-5D4B80F430FD}.wem"
+     },
+     {
+      "Id": "121078866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RS Robot_Shooting5.wav",
+      "CachePath": "89/{89F8FC1B-33DB-1674-6D37-734594EDF2F3}.wem"
      },
      {
       "Id": "158670929",
@@ -48,6 +80,22 @@
       "CachePath": "89/{89636503-9461-024F-119C-A8123CECB50A}.wem"
      },
      {
+      "Id": "235724138",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RT Robot_Turn1.wav",
+      "CachePath": "E4/{E45F0A57-D345-AAFF-28F4-5A6D4D8F8C56}.wem"
+     },
+     {
+      "Id": "264422464",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player_Scanning.wav",
+      "CachePath": "ED/{EDF04819-5025-8D14-7213-EE23DA8509CC}.wem"
+     },
+     {
       "Id": "297088785",
       "Language": "SFX",
       "Streaming": "false",
@@ -72,6 +120,30 @@
       "CachePath": "56/{567831FD-B171-608A-25F4-F72954473447}.wem"
      },
      {
+      "Id": "355841286",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RF Robot_Step5.wav",
+      "CachePath": "39/{393DE16B-F1D7-E8A4-A3BC-717CF97EDC1D}.wem"
+     },
+     {
+      "Id": "410959923",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RT Robot _Turn2.wav",
+      "CachePath": "B4/{B466744A-8344-7030-A259-0F34819DFC7F}.wem"
+     },
+     {
+      "Id": "541583865",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RS Robot_Shooting1.wav",
+      "CachePath": "BA/{BA0D4479-F365-665C-951D-3BDC0377A557}.wem"
+     },
+     {
       "Id": "576027584",
       "Language": "SFX",
       "Streaming": "false",
@@ -80,12 +152,68 @@
       "CachePath": "05/{059BC6B9-7E7D-CFF2-0128-527AF1D85457}.wem"
      },
      {
+      "Id": "577738798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PH Player_Damage2.wav",
+      "CachePath": "B6/{B6BE1995-BC89-CC60-8FAC-E82CBF483EC3}.wem"
+     },
+     {
+      "Id": "580479385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RS Robot_Shooting4.wav",
+      "CachePath": "BF/{BFCBA919-10E1-B6AF-7197-0B43C3A14D9B}.wem"
+     },
+     {
+      "Id": "588125061",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RF Robot_Step1.wav",
+      "CachePath": "E7/{E78DDFFC-D673-A626-0254-62D6E7E98687}.wem"
+     },
+     {
+      "Id": "590956331",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Robot_Detection.wav",
+      "CachePath": "56/{565147A1-8635-9920-0406-76015C10EE9A}.wem"
+     },
+     {
+      "Id": "633232858",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RS Robot_Shooting2.wav",
+      "CachePath": "55/{55F340F0-5C28-5A75-5F29-B5091B5DEDFC}.wem"
+     },
+     {
+      "Id": "643243075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player_Death.wav",
+      "CachePath": "ED/{ED5B6CE6-F151-C64F-C61E-685169782C48}.wem"
+     },
+     {
       "Id": "659855838",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FP Shoes_Metal5.wav",
       "CachePath": "2D/{2DA1DD55-21AE-A19A-C7D4-B85FB4FC3965}.wem"
+     },
+     {
+      "Id": "679353181",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RT Robot_Turn3.wav",
+      "CachePath": "D9/{D9D59A8D-3B14-B887-A73B-5400E459E9B6}.wem"
      },
      {
       "Id": "711468468",
@@ -102,6 +230,14 @@
       "Location": "Memory",
       "ShortName": "FP Shoes_Stop2.wav",
       "CachePath": "30/{30F86ABE-AB58-C784-D682-8FAE873D4CA3}.wem"
+     },
+     {
+      "Id": "771000188",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DG Aggroglitch4.wav",
+      "CachePath": "3C/{3C6E391E-5686-843B-541F-33B55C6824C3}.wem"
      },
      {
       "Id": "828925393",
@@ -128,6 +264,54 @@
       "CachePath": "34/{3462731B-076F-A647-EE68-434E456E8763}.wem"
      },
      {
+      "Id": "908160667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RS Robot_Shooting3.wav",
+      "CachePath": "7C/{7C732EBC-A361-CE5A-891A-271B3104C501}.wem"
+     },
+     {
+      "Id": "925139048",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RF Robot_Step2.wav",
+      "CachePath": "9C/{9C745A26-48AB-EB3E-AD16-2BA6FF3AEE57}.wem"
+     },
+     {
+      "Id": "952284998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DG Aggroglitch3.wav",
+      "CachePath": "70/{7068A24F-F2C9-85F2-09FF-87294525DCF9}.wem"
+     },
+     {
+      "Id": "957326380",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DG AggroGlitch1.wav",
+      "CachePath": "65/{652A5C15-B943-DA0D-4E0D-52D0E1BEE763}.wem"
+     },
+     {
+      "Id": "1007491270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DG Aggroglitch2.wav",
+      "CachePath": "49/{49842566-F778-62BE-C660-36BB85C6A8EC}.wem"
+     },
+     {
+      "Id": "1046674938",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PH Player_Damage1.wav",
+      "CachePath": "B4/{B4CD7C45-5E3E-2E0B-9DA0-086A8E9B8D50}.wem"
+     },
+     {
       "Id": "1057351311",
       "Language": "SFX",
       "Streaming": "false",
@@ -138,9 +322,23 @@
     ],
     "Events": [
      {
+      "Id": "3083087645",
+      "Name": "Player_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player Character\\Player_Death",
+      "GUID": "{08301CBC-536D-48E7-8D72-1502836DADB2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.5091157",
+      "DurationMax": "3.5091157",
+      "MediaRefs": [
+       {
+        "Id": "643243075"
+       }
+      ]
+     },
+     {
       "Id": "1730208058",
       "Name": "Player_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player Character\\Player_Footsteps",
       "GUID": "{5C79B5FC-0C8B-44B8-BE3C-8246AA3075F6}",
       "DurationType": "OneShot",
       "DurationMin": "0.5885034",
@@ -181,35 +379,41 @@
      {
       "Id": "1068092414",
       "Name": "Player_Hurt",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player Character\\Player_Hurt",
       "GUID": "{DC3C264D-F09E-447C-A242-C39682012505}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5885034",
-      "DurationMax": "0.5885034",
+      "DurationMin": "1.4529932",
+      "DurationMax": "1.4529932",
       "MediaRefs": [
        {
-        "Id": "4847204"
+        "Id": "109080345"
+       },
+       {
+        "Id": "577738798"
+       },
+       {
+        "Id": "1046674938"
        }
       ]
      },
      {
       "Id": "4077002444",
       "Name": "Player_Scanning",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player_Scanning",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player Character\\Player_Scanning",
       "GUID": "{1029C0C8-7839-4F6D-9462-C1788A972AA3}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5885034",
-      "DurationMax": "0.5885034",
+      "DurationMin": "3.5091157",
+      "DurationMax": "3.5091157",
       "MediaRefs": [
        {
-        "Id": "327235841"
+        "Id": "264422464"
        }
       ]
      },
      {
       "Id": "3361170585",
       "Name": "Player_Stop",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player Character\\Player_Stop",
       "GUID": "{723633FE-3D77-4BC9-9C21-ACC3BEBD7B3C}",
       "DurationType": "OneShot",
       "DurationMin": "0.5885034",
@@ -231,10 +435,119 @@
         "Id": "841608972"
        }
       ]
+     },
+     {
+      "Id": "1522112979",
+      "Name": "Robot_AggroGlitch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Robot\\Robot_AggroGlitch",
+      "GUID": "{93EF8236-A34E-4D5F-8030-7DE59310878F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.947755",
+      "DurationMax": "3.947755",
+      "MediaRefs": [
+       {
+        "Id": "771000188"
+       },
+       {
+        "Id": "952284998"
+       },
+       {
+        "Id": "957326380"
+       },
+       {
+        "Id": "1007491270"
+       }
+      ]
+     },
+     {
+      "Id": "4001339043",
+      "Name": "Robot_Detection",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Robot\\Robot_Detection",
+      "GUID": "{74E0490D-4C32-4B06-8955-06536FBD7900}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0965986",
+      "DurationMax": "1.0965986",
+      "MediaRefs": [
+       {
+        "Id": "590956331"
+       }
+      ]
+     },
+     {
+      "Id": "1522384865",
+      "Name": "Robot_Shooting",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Robot\\Robot_Shooting",
+      "GUID": "{5AD76D0F-315D-4385-AE52-2F7842971650}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4735601",
+      "DurationMax": "1.4735601",
+      "MediaRefs": [
+       {
+        "Id": "121078866"
+       },
+       {
+        "Id": "541583865"
+       },
+       {
+        "Id": "580479385"
+       },
+       {
+        "Id": "633232858"
+       },
+       {
+        "Id": "908160667"
+       }
+      ]
+     },
+     {
+      "Id": "1626783241",
+      "Name": "Robot_Turning",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Robot\\Robot_Turning",
+      "GUID": "{E22A38B6-3A8A-4190-8464-B6DE7C498376}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0965986",
+      "DurationMax": "1.0965986",
+      "MediaRefs": [
+       {
+        "Id": "235724138"
+       },
+       {
+        "Id": "410959923"
+       },
+       {
+        "Id": "679353181"
+       }
+      ]
+     },
+     {
+      "Id": "837308203",
+      "Name": "Robot_Walking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Robot\\Robot_Walking",
+      "GUID": "{7190D983-9333-4EA1-8458-C00E08CE91C7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5346258",
+      "DurationMax": "0.5346258",
+      "MediaRefs": [
+       {
+        "Id": "67998635"
+       },
+       {
+        "Id": "73368536"
+       },
+       {
+        "Id": "355841286"
+       },
+       {
+        "Id": "588125061"
+       },
+       {
+        "Id": "925139048"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{FE8741FF-C423-F1ED-BF23-985394DDD716}"
+  "FileHash": "{39CDCD41-2FB7-AD25-9CDD-67BB463D5838}"
  }
 }

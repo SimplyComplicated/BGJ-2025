@@ -13,10 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_FOOTSTEPS = 1730208058U;
         static const AkUniqueID PLAYER_HURT = 1068092414U;
         static const AkUniqueID PLAYER_SCANNING = 4077002444U;
         static const AkUniqueID PLAYER_STOP = 3361170585U;
+        static const AkUniqueID ROBOT_AGGROGLITCH = 1522112979U;
+        static const AkUniqueID ROBOT_DETECTION = 4001339043U;
+        static const AkUniqueID ROBOT_SHOOTING = 1522384865U;
+        static const AkUniqueID ROBOT_TURNING = 1626783241U;
+        static const AkUniqueID ROBOT_WALKING = 837308203U;
     } // namespace EVENTS
 
     namespace BANKS
