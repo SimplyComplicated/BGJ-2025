@@ -25,8 +25,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Player_Hurt" ID="{DC3C264D-F09E-447C-A242-C39682012505}"/>
-				<Event Name="Player_Scanning" ID="{1029C0C8-7839-4F6D-9462-C1788A972AA3}"/>
+				<Event Name="Player_Hurt" ID="{DC3C264D-F09E-447C-A242-C39682012505}">
+					<ChildrenList>
+						<Action Name="" ID="{7B9D8A03-0104-46B9-9AF3-30A474A5D878}" ShortID="175089325">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FP Shoes_Metal1" ID="{6175ABCE-77EA-4F72-9FB6-035C6031F2D0}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Scanning" ID="{1029C0C8-7839-4F6D-9462-C1788A972AA3}">
+					<ChildrenList>
+						<Action Name="" ID="{A5F15798-3AAD-4FEF-ADD3-4AEA550FC7DC}" ShortID="171158054">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FP Shoes_Metal2" ID="{CB3B008A-8D14-4948-A613-8A047C14A941}" WorkUnitID="{15E6475C-F788-49EC-B301-6C26B06C1DED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
