@@ -9,6 +9,10 @@ public class Mainmenu : MonoBehaviour
         SceneManager.LoadScene(gameScene);
     }
 
+    public void Exit()
+    {
+        Application.Quit();
+    }
     public void EnableSettingsPanel()
     {
         settingsPanel.SetActive(true);
