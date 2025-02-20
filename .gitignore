@@ -77,7 +77,6 @@ crashlytics-build.properties
 *_WwiseProject/*.prof
 *_WwiseProject/**/*.akd
 *_WwiseProject/**/*.validate
-*_WwiseProject/**/*.wsettings
 *_WwiseProject/.cache/*
 *_WwiseProject/IncrementalSoundBankData.xml
 
@@ -87,8 +86,11 @@ crashlytics-build.properties
 *.cache.json
 .cache/
 
-# Keep these generated files (remove the ! to ignore them)
+# Keep these Wwise files
+!*_WwiseProject/**/*.wwu        # Work Unit files (events, etc.)
+!*_WwiseProject/*.wproj         # Wwise project files
 !*_WwiseProject/GeneratedSoundBanks/*.bnk
 !*_WwiseProject/GeneratedSoundBanks/*.json
 !*_WwiseProject/GeneratedSoundBanks/Windows/*.bnk
 !*_WwiseProject/GeneratedSoundBanks/Mac/*.bnk
+!Wwise_IDs.h
