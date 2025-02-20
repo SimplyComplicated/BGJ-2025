@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1730208058	Player_Footsteps			\Default Work Unit\Player_Footsteps	
+	3361170585	Player_Stop			\Default Work Unit\Player_Stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4847204	FP Shoes_Metal1	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\27\{27DF3994-8EAC-E617-F6DE-DEDF75CD462D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal1		103908
+	158670929	FP Shoes_Metal3	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\6B\{6BDA3354-04A9-195E-04C0-9F6A70140B53}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal3		103908
+	196140962	FP Shoes_Metal4	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\30\{3056FB9F-0DA7-AF6F-7C8F-85C0CA484E62}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal4		103908
+	204720252	FP Shoes_Stop1	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\89\{89636503-9461-024F-119C-A8123CECB50A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Stop\FP Shoes_Stop1		103908
+	297088785	FP Shoes_Metal6	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\67\{679581CB-FC85-37CF-D51D-58B30B59F450}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal6		103908
+	327235841	FP Shoes_Metal2	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\7E\{7EEAB366-C37A-CEC8-2E1B-3E473EA6260F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal2		103908
+	334376594	FP Shoes_Metal9	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\56\{567831FD-B171-608A-25F4-F72954473447}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal9		103908
+	576027584	FP Shoes_Stop5	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\05\{059BC6B9-7E7D-CFF2-0128-527AF1D85457}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Stop\FP Shoes_Stop5		103908
+	659855838	FP Shoes_Metal5	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\2D\{2DA1DD55-21AE-A19A-C7D4-B85FB4FC3965}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal5		103908
+	711468468	FP Shoes_Stop4	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\A6\{A648B816-691A-A9CC-D3D8-A8EFD1299DE2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Stop\FP Shoes_Stop4		103908
+	755002026	FP Shoes_Stop2	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\30\{30F86ABE-AB58-C784-D682-8FAE873D4CA3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Stop\FP Shoes_Stop2		103908
+	828925393	FP Shoes_Metal10	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\FA\{FA6901AC-E8E2-1040-26AA-23F1C5148166}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal10		103908
+	841608972	FP Shoes_Stop3	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\7D\{7D496F93-5297-5E78-4B57-11A123276BFC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Stop\FP Shoes_Stop3		103908
+	876094771	FP Shoes_Metal8	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\34\{3462731B-076F-A647-EE68-434E456E8763}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal8		103908
+	1057351311	FP Shoes_Metal7	Y:\UnityProjects\BGJ-2025\BGJ Game_WwiseProject\.cache\A9\{A97F1A9A-96A4-4932-4E89-55FCB4FA977F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_Footsteps\FP Shoes_Metal7		103908
+

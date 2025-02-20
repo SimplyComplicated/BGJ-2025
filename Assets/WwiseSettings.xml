@@ -10,7 +10,7 @@
     <LoadSoundEngineInEditMode>true</LoadSoundEngineInEditMode>
     <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
     <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-    <WwiseInstallationPathMac>/Applications/Wwise2024.1.2.8726/Wwise.app</WwiseInstallationPathMac>
+    <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise2024.1.2.8726/Wwise.app</WwiseInstallationPathMac>
     <WwiseInstallationPathWindows></WwiseInstallationPathWindows>
     <WwiseProjectPath>../../BGJ-2025/BGJ Game_WwiseProject/BGJ Game_WwiseProject.wproj</WwiseProjectPath>
     <UseWaapi>true</UseWaapi>

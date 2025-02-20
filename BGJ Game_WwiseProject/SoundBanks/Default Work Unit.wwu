@@ -3,8 +3,11 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{FF4B3D2E-04EE-41C5-878E-ACA72E8D105F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main_Soundbank" ID="{F5CFA462-0E4E-4B76-89CC-296FB5BF06BE}">
-					<ObjectInclusionList/>
+				<SoundBank Name="main_Soundbank" ID="{518BF295-6279-4E19-9C31-0A846F9E3377}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Player_Footsteps" ID="{5C79B5FC-0C8B-44B8-BE3C-8246AA3075F6}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Stop" ID="{723633FE-3D77-4BC9-9C21-ACC3BEBD7B3C}" WorkUnitID="{7E9B5D09-D50B-4094-BECD-F3E190F3690C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
