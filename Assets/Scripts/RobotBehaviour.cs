@@ -4,16 +4,35 @@ namespace MainNameSpace
 {
     public class RobotBehaviour : MonoBehaviour
     {
-        [SerializeField] private RobotBasicSettings settings;
-        [SerializeField] private Vector3 endPoint;
-        [SerializeField] public bool HasBeenHacked;
-        [SerializeField] private int breakChance;
-        [SerializeField] private int brokenMultiplier;
-        [SerializeField] private float moveSpeed;
-        [SerializeField] private float chaseSpeedMultiplier;
-        [SerializeField] private float rotationSpeed;
-        [SerializeField] private float visionAngle;
-        [SerializeField] private float disableTime;
+        [SerializeField]
+        private RobotBasicSettings settings;
+
+        [SerializeField]
+        private Vector3 endPoint;
+
+        [SerializeField]
+        public bool HasBeenHacked;
+
+        [SerializeField]
+        private int breakChance;
+
+        [SerializeField]
+        private int brokenMultiplier;
+
+        [SerializeField]
+        private float moveSpeed;
+
+        [SerializeField]
+        private float chaseSpeedMultiplier;
+
+        [SerializeField]
+        private float rotationSpeed;
+
+        [SerializeField]
+        private float visionAngle;
+
+        [SerializeField]
+        private float disableTime;
         private Vector3 startPosition;
         private Vector3 endPosition;
         private Vector3 destination;
@@ -38,7 +57,8 @@ namespace MainNameSpace
 
         void Update()
         {
-            if (HasBeenHacked == true) ProcessHacking();
+            if (HasBeenHacked == true)
+                ProcessHacking();
             target = Vision();
             if (target != null && isPlayerVisible())
             {
@@ -52,29 +72,35 @@ namespace MainNameSpace
             }
         }
 
-
         void OnCollisionEnter(Collision collision)
         {
             if (HasBeenHacked == false)
             {
-               Debug.Log("Youre dead!");
+                Debug.Log("Youre dead!");
             }
         }
 
         private void TerminateTarget()
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, moveSpeed * Time.deltaTime * chaseSpeedMultiplier);
+            transform.position = Vector3.MoveTowards(
+                transform.position,
+                target.transform.position,
+                moveSpeed * Time.deltaTime * chaseSpeedMultiplier
+            );
         }
 
         private void Patrol()
         {
-
             if (transform.position == destination)
             {
                 ResertDestination();
             }
 
-            transform.position = Vector3.MoveTowards(transform.position, destination, moveSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(
+                transform.position,
+                destination,
+                moveSpeed * Time.deltaTime
+            );
         }
 
         private void ResertDestination()
@@ -91,30 +117,52 @@ namespace MainNameSpace
 
         private void Rotate(Vector3 _rotationVector)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation,
-            Quaternion.LookRotation(_rotationVector - transform.position), rotationSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Lerp(
+                transform.rotation,
+                Quaternion.LookRotation(_rotationVector - transform.position),
+                rotationSpeed * Time.deltaTime
+            );
         }
 
         private bool isPlayerVisible()
         {
-            if (isPlayerOnSightLine() != null && isPlayerOnSightLine().tag == "Player" && isPlayerInSightAngle()) return true;
-            else return false;
+            if (
+                isPlayerOnSightLine() != null
+                && isPlayerOnSightLine().tag == "Player"
+                && isPlayerInSightAngle()
+            )
+                return true;
+            else
+                return false;
         }
 
         private bool isPlayerInSightAngle()
         {
-            return Mathf.Abs(Vector3.SignedAngle(transform.position - target.transform.position, transform.forward, Vector3.up)) > 180 - visionAngle * 0.5f;
+            return Mathf.Abs(
+                    Vector3.SignedAngle(
+                        transform.position - target.transform.position,
+                        transform.forward,
+                        Vector3.up
+                    )
+                )
+                > 180 - visionAngle * 0.5f;
         }
+
         private GameObject isPlayerOnSightLine()
         {
             Ray ray = new Ray(transform.position, target.transform.position - transform.position);
-            Debug.DrawRay(transform.position, (target.transform.position - transform.position) * 200, Color.red);
+            Debug.DrawRay(
+                transform.position,
+                (target.transform.position - transform.position) * 200,
+                Color.red
+            );
             RaycastHit obj;
             if (Physics.Raycast(ray, out obj))
             {
                 return obj.collider.gameObject;
             }
-            else return null;
+            else
+                return null;
         }
 
         private GameObject Vision()
@@ -124,7 +172,8 @@ namespace MainNameSpace
             int numColliders = Physics.OverlapSphereNonAlloc(transform.position, 20, hitColliders);
             for (int i = 0; i < numColliders; i++)
             {
-                if (hitColliders[i].gameObject.tag == "Player") return hitColliders[i].gameObject;
+                if (hitColliders[i].gameObject.tag == "Player")
+                    return hitColliders[i].gameObject;
             }
             return null;
         }

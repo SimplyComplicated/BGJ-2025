@@ -1,20 +1,38 @@
 using UnityEngine;
 
-
 namespace MainNameSpace
 {
     public sealed class TurretBehaviour : MonoBehaviour
     {
-        [SerializeField] private TurretBasicSettings settings;
-        [SerializeField] public LayerMask LayerMask;
-        [SerializeField] public bool HasBeenHacked;
-        [SerializeField] private int breakChance;
-        [SerializeField] private int TimeToEscape;
-        [SerializeField] private int brokenMultiplier;
-        [SerializeField] private float AngleSpeed;
-        [SerializeField] private float AngleOfView;
-        [SerializeField] private float VisionDistance;
-        [SerializeField] private float disableTime;
+        [SerializeField]
+        private TurretBasicSettings settings;
+
+        [SerializeField]
+        public LayerMask LayerMask;
+
+        [SerializeField]
+        public bool HasBeenHacked;
+
+        [SerializeField]
+        private int breakChance;
+
+        [SerializeField]
+        private int TimeToEscape;
+
+        [SerializeField]
+        private int brokenMultiplier;
+
+        [SerializeField]
+        private float AngleSpeed;
+
+        [SerializeField]
+        private float AngleOfView;
+
+        [SerializeField]
+        private float VisionDistance;
+
+        [SerializeField]
+        private float disableTime;
         private GameObject target;
         private float movementFactor;
         private float brokenStateTimer;
@@ -38,7 +56,8 @@ namespace MainNameSpace
 
         void Update()
         {
-            if (HasBeenHacked == true) ProcessHacking();
+            if (HasBeenHacked == true)
+                ProcessHacking();
 
             target = Aim();
 
@@ -61,17 +80,24 @@ namespace MainNameSpace
 
         private void LockOnTarget()
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation,
-            Quaternion.LookRotation(target.transform.position - transform.position), AngleSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                Quaternion.LookRotation(target.transform.position - transform.position),
+                AngleSpeed * Time.deltaTime
+            );
             movementFactor = transform.rotation.y;
             timer += Time.deltaTime;
-            if (timer >= TimeToEscape) Fire();
-            if (timer >= 1000) timer = 0;
+            if (timer >= TimeToEscape)
+                Fire();
+            if (timer >= 1000)
+                timer = 0;
         }
+
         private void Fire()
         {
             Debug.Log("You're dead");
         }
+
         GameObject Aim()
         {
             Ray ray = new Ray(transform.position, transform.forward);
@@ -81,7 +107,8 @@ namespace MainNameSpace
             {
                 return obj.collider.gameObject;
             }
-            else return null;
+            else
+                return null;
         }
 
         private void ProcessHacking()

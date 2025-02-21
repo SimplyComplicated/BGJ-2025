@@ -2,7 +2,10 @@ using UnityEngine;
 
 namespace MainNameSpace
 {
-    [CreateAssetMenu(fileName = "RobotBasicSettings", menuName = "Scriptable Objects/RobotBasicSettings")]
+    [CreateAssetMenu(
+        fileName = "RobotBasicSettings",
+        menuName = "Scriptable Objects/RobotBasicSettings"
+    )]
     public class RobotBasicSettings : ScriptableObject
     {
         public int BrokenMultiplier;
@@ -12,7 +15,5 @@ namespace MainNameSpace
         public float VisionAngle;
         public float DisableTime;
         public int BreakChance;
-
     }
-
 }
