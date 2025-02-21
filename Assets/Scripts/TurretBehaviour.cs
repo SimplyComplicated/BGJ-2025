@@ -5,13 +5,16 @@ namespace MainNameSpace
     public sealed class TurretBehaviour : MonoBehaviour
     {
         [SerializeField]
+        private Transform _origin;
+
+        [SerializeField]
+        private float _rotationSmoothFactor = 0.2f;
+
+        [SerializeField]
         private TurretBasicSettings settings;
 
         [SerializeField]
         public LayerMask LayerMask;
-
-        [SerializeField]
-        public bool HasBeenHacked;
 
         [SerializeField]
         private int breakChance;
@@ -33,11 +36,17 @@ namespace MainNameSpace
 
         [SerializeField]
         private float disableTime;
+
         private GameObject target;
         private float movementFactor;
         private float brokenStateTimer;
         private float timer;
         private int brokenFactor;
+
+        private float _elapsedTime = 0;
+        private bool _isHacked = false;
+
+        private Ray _ray;
 
         void Start()
         {
@@ -48,7 +57,6 @@ namespace MainNameSpace
             TimeToEscape = settings.TimeToEscape;
             breakChance = settings.BreakChance;
             brokenMultiplier = settings.BrokenMultiplier;
-            HasBeenHacked = false;
             brokenStateTimer = 0;
             timer = 0;
             brokenFactor = Random.Range(0, 100);
@@ -56,41 +64,78 @@ namespace MainNameSpace
 
         void Update()
         {
-            if (HasBeenHacked == true)
-                ProcessHacking();
+            HandleHackedState();
+
+            _ray = new Ray(_origin.position, _origin.forward);
 
             target = Aim();
 
-            if (target == null || target.tag != "Player")
+            Debug.DrawRay(
+                _ray.origin,
+                _ray.direction * VisionDistance,
+                target != null ? Color.green : Color.red
+            );
+
+            if (target == null)
             {
                 SearchForTarget();
                 timer = 0;
             }
-            else if (target.tag == "Player")
+            else
             {
                 LockOnTarget();
             }
         }
 
+        private void OnDrawGizmos()
+        {
+#if UNITY_EDITOR
+            var color = Color.red;
+            color.a = 0.1f;
+
+            var normal = transform.up;
+            var forward =
+                Quaternion.AngleAxis(AngleOfView * 0.5f * -1f, normal) * transform.forward;
+
+            UnityEditor.Handles.color = color;
+            UnityEditor.Handles.DrawSolidArc(
+                transform.position,
+                normal,
+                forward,
+                AngleOfView,
+                VisionDistance
+            );
+#endif
+        }
+
         private void SearchForTarget()
         {
-            movementFactor = Mathf.PingPong(Time.time * AngleSpeed, AngleOfView);
-            transform.rotation = Quaternion.Euler(0, movementFactor, 0);
+            _elapsedTime += AngleSpeed * Time.deltaTime;
+            movementFactor = Mathf.Sin(_elapsedTime) * AngleOfView * 0.5f;
+            _origin.localRotation = Quaternion.Euler(0, movementFactor, 0);
         }
 
         private void LockOnTarget()
         {
-            transform.rotation = Quaternion.Slerp(
-                transform.rotation,
-                Quaternion.LookRotation(target.transform.position - transform.position),
-                AngleSpeed * Time.deltaTime
+            var dir = target.transform.position - _origin.position;
+
+            _origin.rotation = Quaternion.Lerp(
+                _origin.rotation,
+                Quaternion.LookRotation(dir),
+                _rotationSmoothFactor * 50 * Time.deltaTime
             );
-            movementFactor = transform.rotation.y;
+
             timer += Time.deltaTime;
             if (timer >= TimeToEscape)
+            {
                 Fire();
-            if (timer >= 1000)
                 timer = 0;
+            }
+        }
+
+        private bool IsValidAngle()
+        {
+            return Mathf.Abs(_origin.localRotation.eulerAngles.y) <= AngleOfView * 0.5f;
         }
 
         private void Fire()
@@ -100,36 +145,55 @@ namespace MainNameSpace
 
         GameObject Aim()
         {
-            Ray ray = new Ray(transform.position, transform.forward);
-            Debug.DrawRay(transform.position, transform.forward * 200, Color.red);
-            RaycastHit obj;
-            if (Physics.Raycast(ray, out obj, VisionDistance, LayerMask))
+            if (Physics.Raycast(_ray, out var obj, VisionDistance, LayerMask))
             {
-                return obj.collider.gameObject;
+                if (obj.collider.gameObject.CompareTag("Player") && IsValidAngle())
+                {
+                    return obj.collider.gameObject;
+                }
             }
-            else
-                return null;
+
+            return null;
         }
 
-        private void ProcessHacking()
+        [ContextMenu(nameof(ProcessHacking))]
+        public void ProcessHacking()
         {
             if (brokenFactor <= breakChance)
             {
-                AngleSpeed *= brokenMultiplier;
-                brokenFactor = Random.Range(0, 100);
-                HasBeenHacked = false;
+                HackedFailure();
             }
             else
             {
-                AngleSpeed = 0;
-                brokenStateTimer += Time.deltaTime;
-                if (brokenStateTimer >= disableTime)
-                {
-                    AngleSpeed = settings.AngleSpeed;
-                    brokenStateTimer = 0;
-                    brokenFactor = Random.Range(0, 100);
-                    HasBeenHacked = false;
-                }
+                HackedSuccessfully();
+            }
+        }
+
+        private void HackedFailure()
+        {
+            AngleSpeed *= brokenMultiplier;
+            brokenFactor = Random.Range(0, 100);
+        }
+
+        private void HackedSuccessfully()
+        {
+            AngleSpeed = 0;
+            _isHacked = true;
+        }
+
+        private void HandleHackedState()
+        {
+            if (!_isHacked)
+            {
+                return;
+            }
+
+            brokenStateTimer += Time.deltaTime;
+            if (brokenStateTimer >= disableTime)
+            {
+                AngleSpeed = settings.AngleSpeed;
+                brokenStateTimer = 0;
+                brokenFactor = Random.Range(0, 100);
             }
         }
     }

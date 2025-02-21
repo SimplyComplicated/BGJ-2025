@@ -15,8 +15,8 @@ MonoBehaviour:
   LayerMask:
     serializedVersion: 2
     m_Bits: 192
-  AngleSpeed: 45
-  VisionDistance: 200
+  AngleSpeed: 2
+  VisionDistance: 10
   DisableTime: 5
   TimeToEscape: 3
   BreakChance: 30
