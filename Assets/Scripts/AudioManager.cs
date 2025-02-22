@@ -44,8 +44,8 @@ public class AudioManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             InitializeMusic();
             InitializeSoundEffects();
-            // if(initiateFootsteps)
-            // InitializeFootstepsToMixer();
+             if(initiateFootsteps)
+            InitializeFootstepsToMixer();
         }
         else
         {
