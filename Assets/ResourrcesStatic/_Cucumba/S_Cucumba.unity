@@ -705,6 +705,113 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 1
   m_VerticalFit: 1
+--- !u!1 &815967499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 815967500}
+  - component: {fileID: 815967501}
+  m_Layer: 0
+  m_Name: '[AudioManager]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &815967500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815967499}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1262592881}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &815967501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815967499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f689d039b12fa4620951cfedc69f2c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMixer: {fileID: 0}
+  musicTracks: []
+  soundEffects:
+  - name: FP Shoes_Metal1
+    clip: {fileID: 8300000, guid: 475727bcdc8355546a0941f06452670d, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal2
+    clip: {fileID: 8300000, guid: 8c536a26ce8dc264dbd296828a196224, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal3
+    clip: {fileID: 8300000, guid: 2f07bd3a4704e6240b7546ef47914747, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal4
+    clip: {fileID: 8300000, guid: feed70f85ba8efc479154aef457f9fbc, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal5
+    clip: {fileID: 8300000, guid: 1e4cf1956ad90cf45b652b03c41b9b95, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal6
+    clip: {fileID: 8300000, guid: 50f3906a768c77847a0a71a043144719, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal7
+    clip: {fileID: 8300000, guid: a6e884d2ec49aa346a80b4cd25b08319, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal8
+    clip: {fileID: 8300000, guid: 2cfcd1ebafee4eb49bb4e47c85a2e954, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal9
+    clip: {fileID: 8300000, guid: 8c7f03a80a9c6fc429ebc0fc030d792a, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FP Shoes_Metal10
+    clip: {fileID: 8300000, guid: f005406891588074cbae2402acf1efbe, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &829985048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,6 +1415,7 @@ Transform:
   m_Children:
   - {fileID: 199391763}
   - {fileID: 829985049}
+  - {fileID: 815967500}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1290652279 stripped
@@ -2001,6 +2109,7 @@ GameObject:
   - component: {fileID: 1747518362}
   - component: {fileID: 1747518363}
   - component: {fileID: 1747518364}
+  - component: {fileID: 1747518365}
   m_Layer: 0
   m_Name: '[PlayerController]'
   m_TagString: Untagged
@@ -2114,6 +2223,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animation: {fileID: 1747518362}
   _controller: {fileID: 1747518359}
+--- !u!114 &1747518365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747518358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36b29c714b73f1b40a9f9fcaae2d9259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controller: {fileID: 1747518359}
+  _timeInterval: 0.33
+  _sfxNames:
+  - FP Shoes_Metal1
+  - FP Shoes_Metal2
+  - FP Shoes_Metal3
+  - FP Shoes_Metal4
+  - FP Shoes_Metal5
+  - FP Shoes_Metal6
+  - FP Shoes_Metal7
+  - FP Shoes_Metal8
+  - FP Shoes_Metal9
+  - FP Shoes_Metal10
 --- !u!1001 &1850239345
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -30,6 +30,8 @@ public sealed class PlayerController : MonoBehaviour
 
     public Vector3 MoveDirection => _moveDirection;
 
+    public bool IsMoving => _moveDirection.magnitude > 0;
+
     private void Awake()
     {
         _camera = Camera.main;
