@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/._Default Work Unit.wwu
+    PathAndIcons: []
+    ParentPath: Virtual Acoustics/._Default Work Unit
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8584613936285901268
+    List: []
   - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
@@ -24,9 +31,16 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 0f4dd9ead62591458399ac1620606d79
     GuidInternal: 
-    m_lastTime: -8584615534546875808
+    m_lastTime: -8584613936285900144
     List: []
   AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/._Default Work Unit.wwu
+    PathAndIcons: []
+    ParentPath: Master-Mixer Hierarchy/._Default Work Unit
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8584613936286977186
+    List: []
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
@@ -38,7 +52,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 09f581266a01384cbd78070bcadd9ba6
     GuidInternal: 
-    m_lastTime: -8584615534547775808
+    m_lastTime: -8584613936286976300
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -55,6 +69,13 @@ MonoBehaviour:
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
   BankWwu:
+  - PhysicalPath: SoundBanks/._Default Work Unit.wwu
+    PathAndIcons: []
+    ParentPath: SoundBanks/._Default Work Unit
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8584613936285924986
+    List: []
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -66,7 +87,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 2e3d4bffee04c541878eaca72e8d105f
     GuidInternal: 
-    m_lastTime: -8584615449766375808
+    m_lastTime: -8584613936285918955
     List:
     - name: Main_Soundbank
       guid: 62a4cff54e0e764b89cc296fb5bf06be
@@ -83,6 +104,13 @@ MonoBehaviour:
         guid: 62a4cff54e0e764b89cc296fb5bf06be
       Path: SoundBanks/Default Work Unit/Main_Soundbank
   EventWwu:
+  - PhysicalPath: Events/._Default Work Unit.wwu
+    PathAndIcons: []
+    ParentPath: Events/._Default Work Unit
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8584613936287828228
+    List: []
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -94,8 +122,62 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 095d9b7e0bd59440becdf3e190f3690c
     GuidInternal: 
-    m_lastTime: -8584615432872875808
+    m_lastTime: -8584613936287818789
     List:
+    - name: Enemy_Robot
+      guid: a86a859950bcee4a8279bc1f44a0e4b7
+      id: 1766068718
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Enemy_Robot
+        ObjectType: 4
+        guid: a86a859950bcee4a8279bc1f44a0e4b7
+      Path: Events/Default Work Unit/Enemy_Robot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player Character
+      guid: 4efcaef313853f48b85072efe1ed39ee
+      id: 225339039
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Player Character
+        ObjectType: 4
+        guid: 4efcaef313853f48b85072efe1ed39ee
+      Path: Events/Default Work Unit/Player Character
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Death
+      guid: bc1c30086d53e7488d721502836dadb2
+      id: 3083087645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Player Character
+        ObjectType: 4
+        guid: 4efcaef313853f48b85072efe1ed39ee
+      - ElementName: Player_Death
+        ObjectType: 3
+        guid: bc1c30086d53e7488d721502836dadb2
+      Path: Events/Default Work Unit/Player Character/Player_Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Player_Footsteps
       guid: fcb5795c8b0cb844be3c8246aa3075f6
       id: 1730208058
@@ -106,10 +188,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Player Character
+        ObjectType: 4
+        guid: 4efcaef313853f48b85072efe1ed39ee
       - ElementName: Player_Footsteps
         ObjectType: 3
         guid: fcb5795c8b0cb844be3c8246aa3075f6
-      Path: Events/Default Work Unit/Player_Footsteps
+      Path: Events/Default Work Unit/Player Character/Player_Footsteps
       maxAttenuation: 0
       maxDuration: 0.5885034
       minDuration: 0.5885034
@@ -123,13 +208,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Player Character
+        ObjectType: 4
+        guid: 4efcaef313853f48b85072efe1ed39ee
       - ElementName: Player_Hurt
         ObjectType: 3
         guid: 4d263cdc9ef07c44a242c39682012505
-      Path: Events/Default Work Unit/Player_Hurt
+      Path: Events/Default Work Unit/Player Character/Player_Hurt
       maxAttenuation: 0
-      maxDuration: 1.4529932
-      minDuration: 1.4529932
+      maxDuration: 0.5885034
+      minDuration: 0.5885034
     - name: Player_Scanning
       guid: c8c0291039786d4f9462c1788a972aa3
       id: 4077002444
@@ -140,13 +228,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Player Character
+        ObjectType: 4
+        guid: 4efcaef313853f48b85072efe1ed39ee
       - ElementName: Player_Scanning
         ObjectType: 3
         guid: c8c0291039786d4f9462c1788a972aa3
-      Path: Events/Default Work Unit/Player_Scanning
+      Path: Events/Default Work Unit/Player Character/Player_Scanning
       maxAttenuation: 0
-      maxDuration: 3.5091157
-      minDuration: 3.5091157
+      maxDuration: 0.5885034
+      minDuration: 0.5885034
     - name: Player_Stop
       guid: fe333672773dc94b9c21acc3bebd7b3c
       id: 3361170585
@@ -157,14 +248,124 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Player Character
+        ObjectType: 4
+        guid: 4efcaef313853f48b85072efe1ed39ee
       - ElementName: Player_Stop
         ObjectType: 3
         guid: fe333672773dc94b9c21acc3bebd7b3c
-      Path: Events/Default Work Unit/Player_Stop
+      Path: Events/Default Work Unit/Player Character/Player_Stop
       maxAttenuation: 0
       maxDuration: 0.5885034
       minDuration: 0.5885034
+    - name: Robot_AggroGlitch
+      guid: 3682ef934ea35f4d80307de59310878f
+      id: 1522112979
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Enemy_Robot
+        ObjectType: 4
+        guid: a86a859950bcee4a8279bc1f44a0e4b7
+      - ElementName: Robot_AggroGlitch
+        ObjectType: 3
+        guid: 3682ef934ea35f4d80307de59310878f
+      Path: Events/Default Work Unit/Enemy_Robot/Robot_AggroGlitch
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Detection
+      guid: 0d49e074324c064b895506536fbd7900
+      id: 4001339043
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Enemy_Robot
+        ObjectType: 4
+        guid: a86a859950bcee4a8279bc1f44a0e4b7
+      - ElementName: Robot_Detection
+        ObjectType: 3
+        guid: 0d49e074324c064b895506536fbd7900
+      Path: Events/Default Work Unit/Enemy_Robot/Robot_Detection
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Shooting
+      guid: 0f6dd75a5d318543ae522f7842971650
+      id: 1522384865
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Enemy_Robot
+        ObjectType: 4
+        guid: a86a859950bcee4a8279bc1f44a0e4b7
+      - ElementName: Robot_Shooting
+        ObjectType: 3
+        guid: 0f6dd75a5d318543ae522f7842971650
+      Path: Events/Default Work Unit/Enemy_Robot/Robot_Shooting
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Turning
+      guid: b6382ae28a3a90418464b6de7c498376
+      id: 1626783241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Enemy_Robot
+        ObjectType: 4
+        guid: a86a859950bcee4a8279bc1f44a0e4b7
+      - ElementName: Robot_Turning
+        ObjectType: 3
+        guid: b6382ae28a3a90418464b6de7c498376
+      Path: Events/Default Work Unit/Enemy_Robot/Robot_Turning
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Walking
+      guid: 83d990713393a14e8458c00e08ce91c7
+      id: 837308203
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 095d9b7e0bd59440becdf3e190f3690c
+      - ElementName: Enemy_Robot
+        ObjectType: 4
+        guid: a86a859950bcee4a8279bc1f44a0e4b7
+      - ElementName: Robot_Walking
+        ObjectType: 3
+        guid: 83d990713393a14e8458c00e08ce91c7
+      Path: Events/Default Work Unit/Enemy_Robot/Robot_Walking
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
+  - PhysicalPath: Game Parameters/._Default Work Unit.wwu
+    PathAndIcons: []
+    ParentPath: Game Parameters/._Default Work Unit
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8584613936287817123
+    List: []
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -176,9 +377,16 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: c1ab4adc23b7ed478e2c30ae1bc333a0
     GuidInternal: 
-    m_lastTime: -8584615534548175808
+    m_lastTime: -8584613936287816154
     List: []
   StateWwu:
+  - PhysicalPath: States/._Default Work Unit.wwu
+    PathAndIcons: []
+    ParentPath: States/._Default Work Unit
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8584613936285914273
+    List: []
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
@@ -190,9 +398,16 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: ee900b2c0ac4fb42974c482781235be5
     GuidInternal: 
-    m_lastTime: -8584615534547075808
+    m_lastTime: -8584613936285912935
     List: []
   SwitchWwu:
+  - PhysicalPath: Switches/._Default Work Unit.wwu
+    PathAndIcons: []
+    ParentPath: Switches/._Default Work Unit
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8584613936285910829
+    List: []
   - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
@@ -204,9 +419,16 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 1bf3ad0d9ef1bb428dd154257d0e0d3e
     GuidInternal: 
-    m_lastTime: -8584615534546975808
+    m_lastTime: -8584613936285906606
     List: []
   TriggerWwu:
+  - PhysicalPath: Triggers/._Default Work Unit.wwu
+    PathAndIcons: []
+    ParentPath: Triggers/._Default Work Unit
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8584613936285904707
+    List: []
   - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
@@ -218,7 +440,7 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: d7b6ce8fa95f1940ae2d45e7ae75f257
     GuidInternal: 
-    m_lastTime: -8584615534546875808
+    m_lastTime: -8584613936285903599
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 06000000070000000800000009000000
