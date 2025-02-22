@@ -2,7 +2,10 @@ using UnityEngine;
 
 namespace MainNameSpace
 {
-    [CreateAssetMenu(fileName = "TurretBasicSettings", menuName = "Scriptable Objects/TurretBasicSettings")]
+    [CreateAssetMenu(
+        fileName = "TurretBasicSettings",
+        menuName = "Scriptable Objects/TurretBasicSettings"
+    )]
     public class TurretBasicSettings : ScriptableObject
     {
         public LayerMask LayerMask;

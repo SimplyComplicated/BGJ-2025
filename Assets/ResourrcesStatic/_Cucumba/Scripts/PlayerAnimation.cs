@@ -14,7 +14,7 @@ public sealed class PlayerAnimation : MonoBehaviour
     private Vector3 _animatorDirection;
     private Vector3 _animationDirectionSmooth;
 
-    void Update()
+    private void Update()
     {
         HandleMovement();
     }
@@ -33,5 +33,10 @@ public sealed class PlayerAnimation : MonoBehaviour
 
         _animator.SetFloat("Horizontal", _animationDirectionSmooth.x);
         _animator.SetFloat("Vertical", _animationDirectionSmooth.z);
+    }
+
+    public void Death(bool isDead)
+    {
+        _animator.SetBool("IsDead", isDead);
     }
 }
