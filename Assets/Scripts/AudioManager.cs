@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using Random = UnityEngine.Random;
-
-
 public class AudioManager : MonoBehaviour
 {
     private static AudioManager instance;
@@ -26,13 +24,17 @@ public class AudioManager : MonoBehaviour
     }
 
     public AudioMixer mainMixer;
+
+    public AudioMixerGroup footStepsMixer;
     public List<AudioClipData> musicTracks = new List<AudioClipData>();
     private Dictionary<string, AudioSource> musicDictionary = new Dictionary<string, AudioSource>();
     private AudioSource currentMusic;
+    
 
     [Header("Sound Effects")]
     public List<AudioClipData> soundEffects = new List<AudioClipData>();
     private Dictionary<string, AudioSource> sfxDictionary = new Dictionary<string, AudioSource>();
+    public bool initiateFootsteps;
 
     void Awake()
     {
@@ -42,6 +44,8 @@ public class AudioManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             InitializeMusic();
             InitializeSoundEffects();
+            // if(initiateFootsteps)
+            // InitializeFootstepsToMixer();
         }
         else
         {
@@ -82,6 +86,13 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    private void InitializeFootstepsToMixer()
+    {
+        foreach(var sfx in soundEffects)
+        {
+            sfx.mixerGroup=footStepsMixer;
+        }
+    }
     public void PlayMusic(string name)
     {
         // Stop current music if any is playing
@@ -155,6 +166,7 @@ public class AudioManager : MonoBehaviour
         {
             source.pitch = Random.Range(minPitch, maxPitch);
             source.Play();
+            Debug.Log("Isplaying");
         }
     }
 

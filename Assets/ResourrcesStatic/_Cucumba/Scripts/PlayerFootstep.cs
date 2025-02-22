@@ -66,6 +66,7 @@ public sealed class PlayerFootstep : MonoBehaviour
 
         var idx = Random.Range(0, _shuffledSfxNames.Count);
         var name = _shuffledSfxNames[idx];
+        print(name);
         _audioManager.PlaySFXWithRandomPitch(name);
     }
 }
