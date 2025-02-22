@@ -718,65 +718,65 @@ MonoBehaviour:
   soundEffects:
   - name: FP Shoes_Metal1
     clip: {fileID: 8300000, guid: 475727bcdc8355546a0941f06452670d, type: 3}
-    mixerGroup: {fileID: 6594309185490902626, guid: d099aab657772455db502159d0284c47, type: 2}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 0.16
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal2
     clip: {fileID: 8300000, guid: 8c536a26ce8dc264dbd296828a196224, type: 3}
-    mixerGroup: {fileID: 6594309185490902626, guid: d099aab657772455db502159d0284c47, type: 2}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal3
     clip: {fileID: 8300000, guid: 2f07bd3a4704e6240b7546ef47914747, type: 3}
-    mixerGroup: {fileID: 6594309185490902626, guid: d099aab657772455db502159d0284c47, type: 2}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal4
     clip: {fileID: 8300000, guid: feed70f85ba8efc479154aef457f9fbc, type: 3}
-    mixerGroup: {fileID: 6594309185490902626, guid: d099aab657772455db502159d0284c47, type: 2}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal5
     clip: {fileID: 8300000, guid: 1e4cf1956ad90cf45b652b03c41b9b95, type: 3}
-    mixerGroup: {fileID: 6594309185490902626, guid: d099aab657772455db502159d0284c47, type: 2}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal6
     clip: {fileID: 8300000, guid: 50f3906a768c77847a0a71a043144719, type: 3}
-    mixerGroup: {fileID: 0}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal7
     clip: {fileID: 8300000, guid: a6e884d2ec49aa346a80b4cd25b08319, type: 3}
-    mixerGroup: {fileID: 0}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal8
     clip: {fileID: 8300000, guid: 2cfcd1ebafee4eb49bb4e47c85a2e954, type: 3}
-    mixerGroup: {fileID: 0}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal9
     clip: {fileID: 8300000, guid: 8c7f03a80a9c6fc429ebc0fc030d792a, type: 3}
-    mixerGroup: {fileID: 0}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
   - name: FP Shoes_Metal10
     clip: {fileID: 8300000, guid: f005406891588074cbae2402acf1efbe, type: 3}
-    mixerGroup: {fileID: 0}
+    mixerGroup: {fileID: -4171874335661459767, guid: d099aab657772455db502159d0284c47, type: 2}
     volume: 1
     loop: 0
     source: {fileID: 0}
-  initiateFootsteps: 1
+  initiateFootsteps: 0
 --- !u!1 &829985048
 GameObject:
   m_ObjectHideFlags: 0

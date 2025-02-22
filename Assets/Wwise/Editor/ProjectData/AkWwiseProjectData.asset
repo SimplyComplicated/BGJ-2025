@@ -18,7 +18,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/._Default Work Unit
     guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8584613936285901268
+    m_lastTime: -8584613859839475808
     List: []
   - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 0f4dd9ead62591458399ac1620606d79
     GuidInternal: 
-    m_lastTime: -8584613936285900144
+    m_lastTime: -8584613859839475808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/._Default Work Unit.wwu
@@ -39,7 +39,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/._Default Work Unit
     guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8584613936286977186
+    m_lastTime: -8584613859842375808
     List: []
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
@@ -52,7 +52,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 09f581266a01384cbd78070bcadd9ba6
     GuidInternal: 
-    m_lastTime: -8584613936286976300
+    m_lastTime: -8584613859842375808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -74,7 +74,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/._Default Work Unit
     guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8584613936285924986
+    m_lastTime: -8584613859840175808
     List: []
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
@@ -87,7 +87,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 2e3d4bffee04c541878eaca72e8d105f
     GuidInternal: 
-    m_lastTime: -8584613936285918955
+    m_lastTime: -8584613859840075808
     List:
     - name: Main_Soundbank
       guid: 62a4cff54e0e764b89cc296fb5bf06be
@@ -109,7 +109,7 @@ MonoBehaviour:
     ParentPath: Events/._Default Work Unit
     guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8584613936287828228
+    m_lastTime: -8584613859843975808
     List: []
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 095d9b7e0bd59440becdf3e190f3690c
     GuidInternal: 
-    m_lastTime: -8584613936287818789
+    m_lastTime: -8584613859843975808
     List:
     - name: Enemy_Robot
       guid: a86a859950bcee4a8279bc1f44a0e4b7
@@ -176,8 +176,8 @@ MonoBehaviour:
         guid: bc1c30086d53e7488d721502836dadb2
       Path: Events/Default Work Unit/Player Character/Player_Death
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.5091157
+      minDuration: 3.5091157
     - name: Player_Footsteps
       guid: fcb5795c8b0cb844be3c8246aa3075f6
       id: 1730208058
@@ -216,8 +216,8 @@ MonoBehaviour:
         guid: 4d263cdc9ef07c44a242c39682012505
       Path: Events/Default Work Unit/Player Character/Player_Hurt
       maxAttenuation: 0
-      maxDuration: 0.5885034
-      minDuration: 0.5885034
+      maxDuration: 1.4529932
+      minDuration: 1.4529932
     - name: Player_Scanning
       guid: c8c0291039786d4f9462c1788a972aa3
       id: 4077002444
@@ -236,8 +236,8 @@ MonoBehaviour:
         guid: c8c0291039786d4f9462c1788a972aa3
       Path: Events/Default Work Unit/Player Character/Player_Scanning
       maxAttenuation: 0
-      maxDuration: 0.5885034
-      minDuration: 0.5885034
+      maxDuration: 3.5091157
+      minDuration: 3.5091157
     - name: Player_Stop
       guid: fe333672773dc94b9c21acc3bebd7b3c
       id: 3361170585
@@ -276,8 +276,8 @@ MonoBehaviour:
         guid: 3682ef934ea35f4d80307de59310878f
       Path: Events/Default Work Unit/Enemy_Robot/Robot_AggroGlitch
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.947755
+      minDuration: 3.947755
     - name: Robot_Detection
       guid: 0d49e074324c064b895506536fbd7900
       id: 4001339043
@@ -296,8 +296,8 @@ MonoBehaviour:
         guid: 0d49e074324c064b895506536fbd7900
       Path: Events/Default Work Unit/Enemy_Robot/Robot_Detection
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.0965986
+      minDuration: 1.0965986
     - name: Robot_Shooting
       guid: 0f6dd75a5d318543ae522f7842971650
       id: 1522384865
@@ -316,8 +316,8 @@ MonoBehaviour:
         guid: 0f6dd75a5d318543ae522f7842971650
       Path: Events/Default Work Unit/Enemy_Robot/Robot_Shooting
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.4735601
+      minDuration: 1.4735601
     - name: Robot_Turning
       guid: b6382ae28a3a90418464b6de7c498376
       id: 1626783241
@@ -336,8 +336,8 @@ MonoBehaviour:
         guid: b6382ae28a3a90418464b6de7c498376
       Path: Events/Default Work Unit/Enemy_Robot/Robot_Turning
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.0965986
+      minDuration: 1.0965986
     - name: Robot_Walking
       guid: 83d990713393a14e8458c00e08ce91c7
       id: 837308203
@@ -356,15 +356,15 @@ MonoBehaviour:
         guid: 83d990713393a14e8458c00e08ce91c7
       Path: Events/Default Work Unit/Enemy_Robot/Robot_Walking
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.5346258
+      minDuration: 0.5346258
   RtpcWwu:
   - PhysicalPath: Game Parameters/._Default Work Unit.wwu
     PathAndIcons: []
     ParentPath: Game Parameters/._Default Work Unit
     guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8584613936287817123
+    m_lastTime: -8584613859843875808
     List: []
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -377,7 +377,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: c1ab4adc23b7ed478e2c30ae1bc333a0
     GuidInternal: 
-    m_lastTime: -8584613936287816154
+    m_lastTime: -8584613859843875808
     List: []
   StateWwu:
   - PhysicalPath: States/._Default Work Unit.wwu
@@ -385,7 +385,7 @@ MonoBehaviour:
     ParentPath: States/._Default Work Unit
     guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8584613936285914273
+    m_lastTime: -8584613859839875808
     List: []
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -398,7 +398,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: ee900b2c0ac4fb42974c482781235be5
     GuidInternal: 
-    m_lastTime: -8584613936285912935
+    m_lastTime: -8584613859839875808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/._Default Work Unit.wwu
@@ -406,7 +406,7 @@ MonoBehaviour:
     ParentPath: Switches/._Default Work Unit
     guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8584613936285910829
+    m_lastTime: -8584613859839775808
     List: []
   - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
@@ -419,7 +419,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 1bf3ad0d9ef1bb428dd154257d0e0d3e
     GuidInternal: 
-    m_lastTime: -8584613936285906606
+    m_lastTime: -8584613859839675808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/._Default Work Unit.wwu
@@ -427,7 +427,7 @@ MonoBehaviour:
     ParentPath: Triggers/._Default Work Unit
     guid: 00000000000000000000000000000000
     GuidInternal: 
-    m_lastTime: -8584613936285904707
+    m_lastTime: -8584613859839575808
     List: []
   - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
@@ -440,7 +440,7 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: d7b6ce8fa95f1940ae2d45e7ae75f257
     GuidInternal: 
-    m_lastTime: -8584613936285903599
+    m_lastTime: -8584613859839575808
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 06000000070000000800000009000000
